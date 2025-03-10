@@ -35,6 +35,6 @@ export const SOCIALS: Socials = [
   },
   { 
     NAME: "linkedin",
-    HREF: "hhttps://www.linkedin.com/in/xiao-chun-xu-a2929997",
+    HREF: "https://www.linkedin.com/in/xiao-chun-xu-a2929997",
   }
 ];
