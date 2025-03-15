@@ -6,7 +6,7 @@ date: "Mar 14 2025"
 
 Pugilism has replaced diplomacy as erratic tit-for-tat America-first trade policies and countermeasures create a storm of uncertainty 🌩️ across the globe 🌍. This trade uncertainty inevitably spills over into other parts of the economy. The US dollar 💵 strengthens in uncertain times, exacerbating imported inflation 📈 and raising the cost of foreign borrowing in other countries. Meanwhile, reactionary policies become normalised by governments worldwide, and geopolitical risks escalate ⚠️.
 
-The IMF’s <a href="https://worlduncertaintyindex.com/">World Uncertainty Index</a>—which tracks global uncertainty by text-mining country reports from the Economist Intelligence Unit—underscores the precariousness of the situation. Weighted by GDP, the index has reached its highest level in five years, surpassing levels seen during Brexit, the European sovereign debt crisis, and the global financial crisis.
+The IMF’s [World Uncertainty Index](https://worlduncertaintyindex.com/)—which tracks global uncertainty by text-mining country reports from the Economist Intelligence Unit—underscores the precariousness of the situation. Weighted by GDP, the index has reached its highest level in five years, surpassing levels seen during Brexit, the European sovereign debt crisis, and the global financial crisis.
 
 ![graph](./uncertainty_index_feb25.png)
 
