@@ -16,9 +16,7 @@ Below is an embeded Power BI dashboard:
 
 <iframe title="ivi" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNzIzNTU0ZDktOGZjOC00NDdjLTg3NjItMGFlOWE4MzEzYWU4IiwidCI6IjA0Y2EyZDBiLTliZmItNDQyYS05MmQwLTEwZTQ0MDQzZjNlNCJ9&pageName=Overall" frameborder="0" allowFullScreen="true"></iframe>
 
-<img src="/public/Power BI Full Screen Icon.png">
-
-<img align="left" width="18" height="18" src="Power BI Full Screen Icon.png">&nbsp;Press the full screen button on the bottom right.
+<img align="left" width="18" height="18" src="/Power BI Full Screen Icon.png">&nbsp; Press the full screen button on the bottom right to enlarge the dashboard.
 
 For example, while overall job advertisements declined, the ICT sector saw mixed results. Job ads for ICT Professionals increased in February across most states, except for Tasmania and the Northern Territory.
 - The strongest growth was for ICT Support and Test Engineers (+15.5%).
