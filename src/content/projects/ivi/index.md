@@ -3,6 +3,7 @@ title: "Online job ads dashboard"
 description: "Frontend for JSA's Internet Vacancy Index"
 date: "Mar 14 2025"
 demoURL: "https://app.powerbi.com/view?r=eyJrIjoiNzIzNTU0ZDktOGZjOC00NDdjLTg3NjItMGFlOWE4MzEzYWU4IiwidCI6IjA0Y2EyZDBiLTliZmItNDQyYS05MmQwLTEwZTQ0MDQzZjNlNCJ9&pageName=Overall"
+repoURL: "https://github.com/PointlessWidgetsCo/ivi"
 ---
 
 ## Aim
