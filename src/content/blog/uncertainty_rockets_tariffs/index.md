@@ -1,6 +1,6 @@
 ---
-title: "Uncertainty rockets from tariffs"
-description: "World Uncertinty Index rises again amid global tariffs"
+title: "Uncertainty rocketing from tariffs"
+description: "World Uncertinty Index climbs due to global tariffs but should the Fed step in?"
 date: "Apr 7 2025"
 ---
 
