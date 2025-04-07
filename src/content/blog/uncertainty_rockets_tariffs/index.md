@@ -1,5 +1,5 @@
 ---
-title: "Uncertainty rocketing from tariffs"
+title: "Uncertainty Rocketing from Tariffs 🚀"
 description: "World Uncertainty Index climbs again due to global tariffs but should the Fed step in?"
 date: "Apr 7 2025"
 ---
