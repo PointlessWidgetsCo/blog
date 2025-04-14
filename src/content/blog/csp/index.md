@@ -55,6 +55,15 @@ A course offering a CSP doesn't guarantee you’ll get one. You'll need to meet 
 </table>
 
 </div>
+
+**Footnotes**
+- <small>This list was heavily assisted by GenAI, so please use it with care and confirm details with official sources.</small>
+- <small>The Field of Education has been estimated using GenAI and personal judgement. While broad classifications are generally reliable, users are advised to treat narrow and detailed levels with caution.</small>
+- <small>There is no available information about CSP courses at **Batchelor Institute of Indigenous Tertiary Education**.</small>
+- <small>CSPs are available at **University of Divinity** for students only from disadvantaged backgrounds.</small>
+- <small>The **University of Melbourne** and **University of Canberra** assign CSP on a subject basis rather than on a course basis. Hence, to calculate costs of a course, you need to add individual subjects.</small>
+- <small>**Bond University** is private, not-for-profit, university and hence not eligible for CSP.</small>
+- <small>Each university is listed according to the location of their primary campus (some universities operate in multiple states).</small>
 </div>
 
 <script>
@@ -88,15 +97,24 @@ let table = new DataTable('#cspdt', {
         { data: 'FoE_asced6' }
     ],
 
-    order: [[1, 'asc']],
+    columnDefs: [
+    {
+      searchPanes: {
+        dtOpts: {
+          order: [[1, 'desc']]
+        }
+      },
+      targets: [1]
+    }
+  ],
     
     layout: {
         top1: {
             searchPanes: {
                 cascadePanes: true,
                 order: ['State', 'Uni', 'FoE Broad', 'FoE Narrow', 'FoE Detailed'],
-                orderable: false,
-                collapse: false
+                collapse: false,
+                controls: false
             }
         }
     },
@@ -131,12 +149,3 @@ table.on('click', 'td.dt-control', function (e) {
     // If flag exists, do nothing (let the page load normally)
   })();
 </script>
-
-**Footnotes**
-- <small>This list was heavily assisted by GenAI, so please use it with care and confirm details with official sources.</small>
-- <small>The Field of Education has been estimated using GenAI and personal judgement. While broad classifications are generally reliable, users are advised to treat narrow and detailed levels with caution.</small>
-- <small>There is no available information about CSP courses at **Batchelor Institute of Indigenous Tertiary Education**.</small>
-- <small>CSPs are available at **University of Divinity** for students only from disadvantaged backgrounds.</small>
-- <small>The **University of Melbourne** and **University of Canberra** assign CSP on a subject basis rather than on a course basis. Hence, to calculate costs of a course, you need to add individual subjects.</small>
-- <small>**Bond University** is private, not-for-profit, university and hence not eligible for CSP.</small>
-- <small>Each university is listed according to the location of their primary campus (some universities operate in multiple states).</small>
