@@ -106,7 +106,9 @@ let table = new DataTable('#cspdt', {
       },
       targets: [1]
     }
-  ],
+    ],
+
+    order: [[1, 'asc']],
     
     layout: {
         top1: {
