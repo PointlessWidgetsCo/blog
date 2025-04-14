@@ -97,29 +97,29 @@ let table = new DataTable('#cspdt', {
         { data: 'FoE_asced6' }
     ],
 
-    columnDefs: [
-    {
-      searchPanes: {
-        dtOpts: {
-          order: [[1, 'desc']]
-        }
-      },
-      targets: [1]
-    }
-    ],
-
-    order: [[1, 'asc']],
-    
     layout: {
         top1: {
             searchPanes: {
                 cascadePanes: true,
                 order: ['State', 'Uni', 'FoE Broad', 'FoE Narrow', 'FoE Detailed'],
-                collapse: false            }
+                collapse: false,
+                controls: false
+            }
         }
     },
 
-    stateSave: true
+    columnDefs: [
+        {
+        searchPanes: {
+            dtOpts: {
+                order: [[1, 'desc']]
+            }
+        },
+        targets: [3]
+        }
+    ],
+
+   stateSave: true
 });
 
 
