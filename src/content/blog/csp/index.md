@@ -115,9 +115,7 @@ let table = new DataTable('#cspdt', {
             searchPanes: {
                 cascadePanes: true,
                 order: ['State', 'Uni', 'FoE Broad', 'FoE Narrow', 'FoE Detailed'],
-                collapse: false,
-                controls: false
-            }
+                collapse: false            }
         }
     },
 
