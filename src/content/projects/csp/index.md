@@ -1,7 +1,9 @@
 ---
-title: "Commonwealth Supported Places DataTables"
+title: "Commonwealth Supported Places Postgrad Database 🎓"
 description: "Database of Commonwealth Supported Postgraduate Courses in Australia"
-date: "April 13 2025"
+date: "April 15 2025"
+demoURL: "https://pointlesswidgets.co/blog/csp"
+repoURL: "https://github.com/PointlessWidgetsCo/csp"
 ---
 
 ## Overview
@@ -95,7 +97,7 @@ function format(d) {
         '<dd>Location: ' + d.Location + '</dd>' + 
         '<dd>Description: ' + d.Description + '</dd>' +
         '<dd>Updated: ' + d.Updated + '</dd>' +
-        '<dd><a href=' + d.URL + '>🔗 Link</a></dd>' +
+        '<dd><a href=' + d.URL + ' target="_blank">🔗 Link</a></dd>' +
         '</dl>' 
     );
 }
@@ -148,7 +150,7 @@ table.on('click', 'td.dt-control', function (e) {
 
 </script>
 
-<!-- AJAX requires reload for unknown reasons -->
+<!-- AJAX requires reload for unknown reasons 
 <script>
   (function () {
     const url = new URL(window.location.href);
@@ -161,6 +163,7 @@ table.on('click', 'td.dt-control', function (e) {
     // If flag exists, do nothing (let the page load normally)
   })();
 </script>
+-->
 
 ## TODO
 - [x] Upload project to Github repo
