@@ -150,7 +150,7 @@ table.on('click', 'td.dt-control', function (e) {
 
 </script>
 
-<!-- AJAX requires reload for unknown reasons 
+<!-- AJAX requires reload for unknown reasons -->
 <script>
   (function () {
     const url = new URL(window.location.href);
@@ -163,7 +163,7 @@ table.on('click', 'td.dt-control', function (e) {
     // If flag exists, do nothing (let the page load normally)
   })();
 </script>
--->
+
 
 ## TODO
 - [x] Upload project to Github repo

@@ -1,7 +1,7 @@
 ---
 title: "Looking to upskill with help from the Australian Government?"
 description: "Database of Commonwealth Supported Postgraduate Courses in Australia"
-date: "Apr 12 2025"
+date: "Apr 14 2025"
 ---
 
 🎓 Some postgraduate university courses in Australia are Commonwealth Supported Places (CSPs)—meaning the government subsidises part of your tuition fees, potentially saving you thousands.
@@ -18,7 +18,7 @@ Using a mix of web scraping and GenAI, I’ve compiled a dataset of all postgrad
 A course offering a CSP doesn't guarantee you’ll get one. You'll need to meet the course's entry requirements, and places are offered on merit. Eligibility also depends on your citizenship or residency status.
 
 ℹ️ Want to learn more about CSP eligibility?
-👉 [StudyAssist - Commonwealth Supported Places](https://www.studyassist.gov.au/financial-and-study-support/commonwealth-supported-places-csps)
+👉 [StudyAssist - Commonwealth Supported Places](https://www.studyassist.gov.au/financial-and-study-support/commonwealth-supported-places-csps){:target="_blank"}
 
 
 <!-- DataTables CSS -->
@@ -65,7 +65,7 @@ function format(d) {
         '<dd>Location: ' + d.Location + '</dd>' + 
         '<dd>Description: ' + d.Description + '</dd>' +
         '<dd>Updated: ' + d.Updated + '</dd>' +
-        '<dd><a href=' + d.URL + '>🔗 Link</a></dd>' +
+        '<dd><a href=' + d.URL + ' target="_blank">🔗 Link</a></dd>' +
         '</dl>' 
     );
 }
@@ -132,9 +132,9 @@ table.on('click', 'td.dt-control', function (e) {
   })();
 </script>
 
-### Footnotes
-
-- <small>This list was heavily assisted by generative AI, so please use it with care and confirm details with official sources.</small>
+**Footnotes**
+- <small>This list was heavily assisted by GenAI, so please use it with care and confirm details with official sources.</small>
+- <small>The Field of Education has been estimated using GenAI and personal judgement. While broad classifications are generally reliable, users are advised to treat narrow and detailed levels with caution.</small>
 - <small>There is no available information about CSP courses at **Batchelor Institute of Indigenous Tertiary Education**.</small>
 - <small>CSPs are available at **University of Divinity** for students only from disadvantaged backgrounds.</small>
 - <small>The **University of Melbourne** and **University of Canberra** assign CSP on a subject basis rather than on a course basis. Hence, to calculate costs of a course, you need to add individual subjects.</small>
