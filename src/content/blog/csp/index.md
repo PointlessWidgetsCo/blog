@@ -18,7 +18,7 @@ Using a mix of web scraping and GenAI, I’ve compiled a dataset of all postgrad
 A course offering a CSP doesn't guarantee you’ll get one. You'll need to meet the course's entry requirements, and places are offered on merit. Eligibility also depends on your citizenship or residency status.
 
 ℹ️ Want to learn more about CSP eligibility?
-👉 [StudyAssist - Commonwealth Supported Places](https://www.studyassist.gov.au/financial-and-study-support/commonwealth-supported-places-csps){:target="_blank"}
+👉 [StudyAssist - Commonwealth Supported Places](https://www.studyassist.gov.au/financial-and-study-support/commonwealth-supported-places-csps)
 
 
 <!-- DataTables CSS -->
