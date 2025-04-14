@@ -22,7 +22,7 @@ A course offering a CSP doesn't guarantee you’ll get one. You'll need to meet 
 
 
 <!-- DataTables CSS -->
-<link href="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.2.2/sp-2.3.3/sl-3.0.0/datatables.min.css" rel="stylesheet" integrity="sha384-wwmI7e7NXabxUs/dN23XQhx2K219b+uUDESZsuNNztQnOcwfr87umKlBk1j4pes5" crossorigin="anonymous1">
+<link href="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.2.2/sp-2.3.3/sl-3.0.0/datatables.min.css" rel="stylesheet" integrity="sha384-wwmI7e7NXabxUs/dN23XQhx2K219b+uUDESZsuNNztQnOcwfr87umKlBk1j4pes5" crossorigin="anonymous">
 
 <!-- jQuery & DataTables JS -->
 <script src="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.2.2/sp-2.3.3/sl-3.0.0/datatables.min.js" integrity="sha384-hfAZRcvpHHQqR5wA9hrj1MgyvmBV+0wUzHE6EaeZb2rkseIYZG5E9TdxJmjk3Jux" crossorigin="anonymous"></script>

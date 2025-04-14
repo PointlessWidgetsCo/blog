@@ -54,10 +54,10 @@ This dataset can be used by prospective students, educational institutions, rese
 
 ## Output
 <!-- DataTables CSS -->
-<link href="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.2.2/sp-2.3.3/sl-3.0.0/datatables.min.css" rel="stylesheet" integrity="sha384-wwmI7e7NXabxUs/dN23XQhx2K219b+uUDESZsuNNztQnOcwfr87umKlBk1j4pes5" crossorigin="anonymous1">
+<link href="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.2.2/sp-2.3.3/sl-3.0.0/datatables.min.css" rel="stylesheet" integrity="sha384-wwmI7e7NXabxUs/dN23XQhx2K219b+uUDESZsuNNztQnOcwfr87umKlBk1j4pes5" crossorigin="anonymous">
 
 <!-- jQuery & DataTables JS -->
-<script src="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.2.2/sp-2.3.3/sl-3.0.0/datatables.min.js" integrity="sha384-hfAZRcvpHHQqR5wA9hrj1MgyvmBV+0wUzHE6EaeZb2rkseIYZG5E9TdxJmjk3Jux" crossorigin="anonymous1"></script>
+<script src="https://cdn.datatables.net/v/dt/jq-3.7.0/dt-2.2.2/sp-2.3.3/sl-3.0.0/datatables.min.js" integrity="sha384-hfAZRcvpHHQqR5wA9hrj1MgyvmBV+0wUzHE6EaeZb2rkseIYZG5E9TdxJmjk3Jux" crossorigin="anonymous"></script>
 
 
 <div class="w-screen mx-[calc(-50vw+50%)]">
@@ -120,20 +120,29 @@ let table = new DataTable('#cspdt', {
         { data: 'FoE_asced6' }
     ],
 
-    order: [[1, 'asc']],
-    
     layout: {
         top1: {
             searchPanes: {
                 cascadePanes: true,
                 order: ['State', 'Uni', 'FoE Broad', 'FoE Narrow', 'FoE Detailed'],
-                orderable: false,
-                collapse: false
+                collapse: false,
+                controls: false
             }
         }
     },
 
-    stateSave: true
+    columnDefs: [
+        {
+        searchPanes: {
+            dtOpts: {
+                order: [[1, 'desc']]
+            }
+        },
+        targets: [3]
+        }
+    ],
+
+   stateSave: true
 });
 
 
@@ -163,13 +172,4 @@ table.on('click', 'td.dt-control', function (e) {
     // If flag exists, do nothing (let the page load normally)
   })();
 </script>
-
-
-## TODO
-- [x] Upload project to Github repo
-- [x] Write blog post
-- [ ] Check rows for major unis UNSW, USYD, UniMelb
-- [ ] Write LinkedIn Post
-- [x] Get rid of 00:00 in the Updated column
-- [x] Solve refresh issue with AJAX
 
