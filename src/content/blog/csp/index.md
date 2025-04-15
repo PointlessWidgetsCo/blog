@@ -4,9 +4,9 @@ description: "Database of Commonwealth Supported Postgraduate Courses in Austral
 date: "Apr 14 2025"
 ---
 
-🎓 Some postgraduate university courses in Australia are Commonwealth Supported Places (CSPs)—meaning the government subsidises part of your tuition fees, potentially saving you thousands.
+🎓 Did you know some postgraduate university courses in Australia are Commonwealth Supported Places (CSPs)—meaning the government subsidises part of your tuition fees, potentially saving you thousands?
 
-Using a mix of web scraping and GenAI, I’ve compiled a dataset of all postgraduate courses in Australia currently offering CSPs.
+Using a mix of web scraping and GenAI, I’ve compiled a dataset of nearly 2,000 postgraduate courses in Australia currently offering CSPs.
 
 🔍 Each entry includes:
 - Course description
